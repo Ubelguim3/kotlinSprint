@@ -7,7 +7,6 @@ fun main() {
     println(gratitudeMessage)
 
     var quantityOfWorkers : Int = 2000
-//    println(quantityOfWorkers)
     quantityOfWorkers = 1999
     println("Количество сотрудников - $quantityOfWorkers")
 }
