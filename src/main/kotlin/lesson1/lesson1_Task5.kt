@@ -8,8 +8,9 @@ fun task5() {
     seconds = seconds % SECONDSINMINUTE
     val formattedSeconds = String.format("%02d",seconds)
     val hours = minutes / MINUTESINHOUR
+    val formattedHours = String.format("%02d",hours)
     minutes = minutes % MINUTESINHOUR
-    println("$hours:$minutes:$formattedSeconds")
+    println("$formattedHours:$minutes:$formattedSeconds")
 }
 
 fun main() {
